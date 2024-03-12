@@ -21,3 +21,28 @@ body {
     width: 1.5rem;
     margin-right: 0.2rem;
 }
+
+main h2 {
+    font-family: 'Raleway';
+    font-weight: 100;
+}
+
+main p {
+    color: #fff;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+main i {
+    font-size: larger;
+}
+
+#destacados .card img {
+    height: 150px;
+}
+
+.card-body h4 {
+    font-weight: 100;
+    color: #fff;
+    font-size: 1.1rem;
+}
