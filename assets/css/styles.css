@@ -46,3 +46,29 @@ main i {
     color: #fff;
     font-size: 1.1rem;
 }
+
+/* Estilo inicial de la barra de navegación */
+.navbar {
+    transition: background-color 0.3s ease; /* Transición suave */
+  }
+
+  /* Estilo de la barra de navegación al hacer scroll */
+  .navbar.scrolled {
+    background-color: #000; /* Nuevo color de fondo al hacer scroll */
+  }
+
+footer ul {
+    display: flex;
+}
+
+footer ul li {
+    list-style: none;
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 10px;
+}
+
+footer ul a {
+    color: #fff;
+    
+}

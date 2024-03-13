@@ -17,10 +17,10 @@
 </head>
 <body>
     <header> <!-- CABECERA -->
-        <nav id="navbar" class="navbar navbar-expand-lg bg- fixed-top"> <!-- BARRA DE NAVEGACIÓN -->
+        <nav id="navbar" class="navbar navbar-dark navbar-expand-lg fixed-top"> <!-- BARRA DE NAVEGACIÓN -->
             <div class="container">
               <a class="navbar-brand" href="#"><img src="./assets/img/viajes.svg" alt="">Viajes Chile</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
@@ -66,7 +66,7 @@
           </div>
     </section>
     <main class="container-fluid bg-black py-5"> <!-- SECCIÓN PRINCIPAL -->
-        <section id="somos" class="container">
+        <section id="somos" class="container"><!-- SECCIÓN QUIÉNES SOMOS -->
             <h2 class="text-center py-5 mb-5 text-light">¿QUIÉNES SOMOS?</h2>
             <div class="row">
                 <article class="col-xl-4 col-md-4 col-sm-12">
@@ -89,39 +89,43 @@
                 </article>
             </div>
         </section>
-        <section id="destacados" class="container py-5">
+        <section id="destacados" class="container py-5"> <!-- SECCIÓN DESTACADOS -->
             <h2 class="text-center py-5 mb-5 text-light">DESTACADOS</h2>
             <div class="row">
+                <!-- CARD 1 -->
                 <div class="col-xl-3 col-md-3 col-sm-12 col-xs-12">
                     <div class="card" style="width: 20rem;">
-                    <img src="./assets/img/card1.jpg" class="card-img-top" alt="...">
+                    <img src="./assets/img/card1.jpg" class="card-img-top" alt="Montañas y lago">
                     <div class="card-body bg-info">
                         <h4>Lorem ipsum dolor</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                     </div>
                 </div>
+                <!-- CARD 2 -->
                 <div class="col-xl-3 col-md-3 col-sm-12 col-xs-12">
                     <div class="card" style="width: 20rem;">
-                    <img src="./assets/img/card2.jpg" class="card-img-top" alt="...">
+                    <img src="./assets/img/card2.jpg" class="card-img-top" alt="Páramo y lago">
                     <div class="card-body bg-info">
                         <h4>Lorem ipsum dolor</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                     </div>
                 </div>
+                <!-- CARD 3 --> 
                 <div class="col-xl-3 col-md-3 col-sm-12 col-xs-12">
                     <div class="card" style="width: 20rem;">
-                    <img src="./assets/img/card3.jpg" class="card-img-top" alt="...">
+                    <img src="./assets/img/card3.jpg" class="card-img-top" alt="Desierto y lago">
                     <div class="card-body bg-info">
                         <h4>Lorem ipsum dolor</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                     </div>
                 </div>
+                <!-- CARD 4 -->
                 <div class="col-xl-3 col-md-3 col-sm-12 col-xs-12">
                     <div class="card" style="width: 20rem;">
-                    <img src="./assets/img/card4.jpg" class="card-img-top" alt="...">
+                    <img src="./assets/img/card4.jpg" class="card-img-top" alt="Selva">
                     <div class="card-body bg-info">
                         <h4>Lorem ipsum dolor</h4>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -130,18 +134,52 @@
                 </div>
             </div>
         </section>
+        <section id="contacto" class="container py-5"><!-- SECCIÓN CONTACTO -->
+            <h2 class="text-center py-5 mb-5 text-light">CONTACTO</h2>
+            <article class="formulario text-light fw-light">
+                <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput">
+                  </div>
+                  <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label">Asunto</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-info text-white">Enviar</button>
+            </article>
+        </section>
     </main>
-    <footer> <!-- PIE DE PÁGINA -->
-
+    <footer class="container-fluid bg-info pt-3"> <!-- PIE DE PÁGINA -->
+        <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <h2 class="text-center text-light fw-light">VIAJES CHILE</h2>
+            </div>
+            <div class="col-4"></div>
+            <div class="col-4">
+                <ul>
+                    <li><a href=""><i class="fa-brands fa-square-github"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-square-twitter"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-square-facebook"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
     </footer>
     
-<!-- JAVASCRIPT -->
-    <script src="./assets/js/script.js"></script>
+
 <!-- SCRIPT DE BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <!-- JQUERY -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 <!-- FONTAWESOME -->
     <script src="https://kit.fontawesome.com/6a883acbf8.js" crossorigin="anonymous"></script>
+<!-- JAVASCRIPT -->
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
