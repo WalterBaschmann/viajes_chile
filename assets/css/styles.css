@@ -17,6 +17,11 @@ body {
     font-size: 0.9rem;
 }
 
+#navbar a:hover {
+    text-shadow: 1px 1px 15px #fff;
+    box-shadow: 0 0 3px #ffffff;
+}
+
 #navbar img {
     width: 1.5rem;
     margin-right: 0.2rem;
@@ -59,6 +64,7 @@ main i {
 
 footer ul {
     display: flex;
+    margin-left: 2rem;
 }
 
 footer ul li {
@@ -70,5 +76,9 @@ footer ul li {
 
 footer ul a {
     color: #fff;
-    
+
 }
+.custom-tooltip-class {
+    --bs-tooltip-bg: var(--bs-white);
+    --bs-tooltip-color: var(--bs-black);
+  }
